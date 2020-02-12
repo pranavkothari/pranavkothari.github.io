@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+.web-page {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: auto;
+    margin-bottom: 3em;
+    padding: 0.5em;
+    font-size: 1.6em;
+
+    &-main {
+        background-color: white;
+    }
+}
+
+.footer-bar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 4.5em;
+    z-index: 10;
+    place-items: center;
+    
+    &-icon {
+        width: 3em;
+        height: 3em;
+        display: block;
+        fill: none;
+    }
+
+}
+
+.footer-top {
+    display: none;
+    width: 4em;
+    height: 4em;
+    position: fixed;
+    bottom: 5.5em;
+    right: 0.4em;
+    z-index: 11;
+    cursor: pointer;
+    
+}
