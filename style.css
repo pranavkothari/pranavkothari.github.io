@@ -4,58 +4,6 @@
 }
 
 html {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 62.5%;
-  scroll-behavior: smooth;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.2em;
 }
-
-.web-page {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 1fr;
-      grid-template-rows: 1fr;
-  -ms-grid-columns: auto;
-      grid-template-columns: auto;
-  margin-bottom: 3em;
-  padding: 0.5em;
-  font-size: 1.6em;
-}
-
-.web-page-main {
-  background-color: white;
-}
-
-.footer-bar {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-  -ms-grid-rows: auto;
-      grid-template-rows: auto;
-  background-color: white;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 4.5em;
-  z-index: 10;
-  place-items: center;
-}
-
-.footer-bar-icon {
-  width: 3em;
-  height: 3em;
-  display: block;
-  fill: none;
-}
-
-.footer-top {
-  display: none;
-  width: 4em;
-  height: 4em;
-  position: fixed;
-  bottom: 5.5em;
-  right: 0.4em;
-  z-index: 11;
-  cursor: pointer;
-}
-/*# sourceMappingURL=style.css.map */
